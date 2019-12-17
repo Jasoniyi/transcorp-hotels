@@ -42,9 +42,12 @@ const Header = () => {
       {/* Menu */}
       <Router>
         <MDBNavbar color="indigo" dark expand="md" className="nav-wrapper">
-          <MDBNavbarToggler onClick={toggleCollapse} />
+          <MDBNavbarToggler
+            onClick={toggleCollapse}
+            className="navbar-dark navbar-expand-lg"
+          />
           <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
-            <MDBNavbarNav className="mr-2 menu">
+            <MDBNavbarNav className="mr-2 menu navbar-expand-lg">
               <MDBNavItem active className="mr-5">
                 <MDBNavLink to="#!" className="navbarnav">
                   Home

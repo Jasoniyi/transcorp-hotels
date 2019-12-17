@@ -36,11 +36,16 @@ ul {
 label {
   margin: 0;
 }
+
 /* body {
   background-color: #ffffff;
   margin: 0 auto;
   box-sizing: border-box;
 } */
+
+.navbar-dark {
+  background-color: #ff7200;
+}
 
 /* Header Component */
 .header {
@@ -152,6 +157,8 @@ label {
 
 .border-left {
   border-right: 2px solid #ebebf2;
+  height: 80%;
+  margin-top: 10%;
 }
 
 .date-label input[type="date"] {
@@ -473,7 +480,8 @@ label {
 
 @media (max-width: 815px) {
   .navbarnav {
-    font-size: 5px;
+    font-size: 15px;
+    width: 100% !important;
   }
 
   .promo-code p {
@@ -483,6 +491,43 @@ label {
   .guest-btn {
     height: 60px;
     margin-top: 3em;
+  }
+
+  .collapse {
+    display: none !important;
+  }
+}
+
+@media (max-width: 765px) {
+  .guests-wrapper {
+    height: 100px;
+  }
+
+  .about-wrapper {
+    margin-top: 23em;
+  }
+
+  .rooms-left {
+    margin-bottom: 2em;
+  }
+
+  .room-img {
+    height: 300px;
+    background-size: cover;
+  }
+
+  .testimonals-wrapper {
+    margin-top: 15em;
+  }
+
+  .blog-xs-card {
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 2em;
+    width: 55% !important;
+  }
+
+  .border-left {
   }
 }
 

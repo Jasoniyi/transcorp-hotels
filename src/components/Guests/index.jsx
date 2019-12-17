@@ -11,13 +11,13 @@ const index = () => {
             <input type="date" placeholder="date" />
           </div>
         </MDBCol>
-        <MDBCol md="3">
+        <MDBCol md="3" className="border-left">
           <div className="title">Check-in</div>
           <div className="date-label">
             <input type="date" placeholder="date" />
           </div>
         </MDBCol>
-        <MDBCol md="3">
+        <MDBCol md="3" className="border-left">
           <div className="title">Check-in</div>
           <div className="date-label">
             <input type="date" placeholder="date" />
